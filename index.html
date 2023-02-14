@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Cat_Food.webp">
+    <title>Uberfest</title>
+</head>
+<body>
+    <div id="box">
+        <div class="left">
+            <select name="banner" id="banner">
+                <option value="">Choose banner</option>
+                <option value="Nekoluga">Tales of the Nekoluga</option>
+                <option value="Dynamites">The Dynamites</option>
+                <option value="Sengoku">Sengoku Wargods Varijas</option>
+                <option value="Galaxy_Gals">Cyber Academy Galaxy Gals</option>
+                <option value="Dragon">Lords of Destruction Dragon Emperors</option>
+                <option value="Ultra_Souls">Ancient Heros Ultra Souls</option>
+                <option value="Dark_Heros">Dark Heros</option>
+                <option value="The_Almighties">The Almighties</option>
+                <option value="Iron_Legion">Frontline Assault Iron Legion</option>
+                <option value="Pixies">Nature's Guardian Elemental Pixies</option>
+                <option value="GirsMonsters">Girls&Monsters Angel of Terror</option>
+                <option value="Uberfest">Uberfest</option>
+            </select>
+            <button id="start">
+                <span class="buttonText">Try <span style="color: red;">11</span> times!</span>
+                <img src="./Cat_Food.webp" alt="" class="catfoodImg">
+                <span class="catfoodReq">1500</span>
+            </button>
+            
+            <div id="numberOfCapsuleBox">
+                <span class="capsuleDes">Capsules: </span>
+                <h3 class="numberOfCapsule">0</h3>
+                <span class="catfoodDes">Catfoods: </span>
+                <h3 class="numberOfCatfood">0</h3> <img src="./Cat_Food.webp" alt="" style="width: 5vh;">
+            </div>
+
+            <div class="totalCatsBox">
+                <div class="totalCatsSubBox">
+                    <span class="totalCats">Rare: </span><span class="cats">0</span>
+                </div>
+
+                <div class="totalCatsSubBox">
+                    <span class="totalCats">Super: </span><span class="cats">0</span>
+                </div>
+
+                <div class="totalCatsSubBox">
+                    <span class="totalCats">Uber: </span><span class="cats">0</span>
+                </div>   
+                
+                <div class="totalCatsSubBox">
+                    <span class="totalCats">Legend: </span><span class="cats">0</span>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div id="show"></div>
+        </div>
+    </div>
+    <script type="module" src="./script.js"></script>
+    
+</body>
+</html>
